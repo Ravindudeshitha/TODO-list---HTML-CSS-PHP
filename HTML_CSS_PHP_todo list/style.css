@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(226, 240, 252);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-top: 70px;
+}
+.add_edit{
+    min-height: 40vh;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.527);
+
+}
+.add_edit .title_area h2{
+    text-align: center;
+
+}
+.add_edit_form .field{
+    display: flex;
+    flex-direction: column;
+}
+.field input, select{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.details{
+    
+    margin-bottom: 30px;
+}
+.details .detail_box{
+    background-color:white;
+    margin: 5px;
+    border-radius:20px;
+    padding: 15px;
+    box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.527);
+}
+.details .detail_box p{
+    margin:2px;
+}
+
+.details .detail_box .but .edit button{
+    background-color: rgb(75, 83, 202);
+    border: none;
+    color: white;
+    padding: 5px;
+    outline: none;
+}
+.details .detail_box .but .remove button{
+    background-color: rgb(218, 79, 79);
+    border: none;
+    color: white;
+    padding: 5px;
+    outline:none;
+}
+.left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .left, .right {
+    width: 50%;
+  }
